@@ -1,0 +1,10 @@
+.imgWeat{
+    width: 5em;
+    height: 5em;
+}
+
+.oneCard{
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 2%;
+}
