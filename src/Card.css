@@ -4,7 +4,8 @@
 }
 
 .oneCard{
-    border: solid 2px black;
+    border: solid 2px rgb(147, 147, 147);
     border-radius: 10px;
     padding: 2%;
+    margin-left: 2%;
 }
