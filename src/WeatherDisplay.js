@@ -20,7 +20,7 @@ class WeatherDisplay extends React.PureComponent{
 
     search=async()=>{
         this.setState({isLoad:false})
-        const response=await fetch(`${api.base}/forecast?q=${this.state.city}&lang=ru&units=metric&APPID=${api.key}`);
+        const response=await fetch(`https://cors-anywhere.herokuapp.com/${api.base}/forecast?q=${this.state.city}&lang=ru&units=metric&APPID=${api.key}`);
         if(!response.ok){
             console.log("fetch error " + response.status);
             alert('УПС...Что-то пошло не так, попытайтесь еще раз');
