@@ -40,7 +40,6 @@ class Card extends React.PureComponent{
 
         const ms = this.props.day.dt * 1000;
         const weekdayName = new Date(ms).toLocaleString('ru', {weekday: 'long'});
-        console.log(this.props.day.dt_txt)
         return (<div className="oneCard">
             <p>{weekdayName}</p>
             <div>
