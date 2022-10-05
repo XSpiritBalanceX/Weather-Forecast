@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 View application online:
-### `https://weather-forecast-r.herokuapp.com/`
+[Сlick to view app](https://weather-forecast-r.herokuapp.com/).
 
 ## Available Scripts
 
